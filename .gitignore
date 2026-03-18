@@ -1,0 +1,70 @@
+# Ignore all markdown and text files by default
+*.md
+*.txt
+
+# Keep only these specific CMake files tracked
+!CMakeLists.txt
+!c/CMakeLists.txt
+
+# Ignore images and manuals
+images/
+manuals/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Conda
+.conda/
+conda-meta/
+
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Environments / secrets
+.env
+.env.*
+*.log
+
+# Build outputs
+dist/
+build/
+out/
+
+# Keep folders, ignore contents
+java-out/*
+!java-out/
+!java-out/.gitkeep
+
+c/c-executables/*
+!c/c-executables/
+!c/c-executables/.gitkeep
+
+# Compiled / binary artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.class
+
+# CMake / CLion
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Misc
+*.swp
+*.swo
